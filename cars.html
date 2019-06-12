@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>CARS - HONDA</title>
+    <link rel="stylesheet" href="/assets/styles/bootstrap-custom.css"/>
+    <link rel="stylesheet" href="/assets/styles/main.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css"/>
+  </head>
+  <body>
+    <!-- Header 開始-->
+    <header class="header" id="header"> 
+      <div class="header-container">
+        <div class="header-logo"><a href="homepage.html"><img src="/assets/images/header/header-logo.png"/></a></div>
+        <div class="burger burger-squeeze">
+          <div class="burger-lines"></div>
+        </div>
+        <div class="menu">
+          <div class="menu-container">       
+            <ul class="menu-list">
+              <li class="menu-item"><a id="cars" href="javascript:;">車款介紹</a></li>
+              <li class="menu-item"><a id="buy" href="javascript:;">購車優惠</a></li>
+              <li class="menu-item"><a id="news" href="/news.html">最新消息</a></li>
+              <li class="menu-item"><a id="safety" href="javascript:;">安全守護</a></li>
+              <li class="menu-item"><a id="about" href="javascript:;">關於Honda</a></li>
+              <li class="menu-item"><a id="contact" href="javascript:;">聯絡Honda</a></li>
+              <li class="menu-item"><a id="owner" href="/owner.html">車主專區</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- sub menu-->
+    <div class="subMenu">
+      <div class="subMenu-scroll">
+        <div class="subMenu-wrap">
+          <div class="subMenu-group subMenu-cars smCars"><a class="subMenu-tab" href="javascript:;">車款介紹</a>
+            <div class="subMenu-content container">
+              <ul class="subMenu-list row">
+                <li class="subMenu-item col-6 col-sm-4 col-lg"><a href="/xxx.html"> <img class="smCars-img" src="/assets/images/header/carmodel/hr-v.png" alt=""/>
+                    <div class="smCars-txt">HR-V</div></a></li>
+                <li class="subMenu-item col-6 col-sm-4 col-lg"><a href="/xxx.html"> <img class="smCars-img" src="/assets/images/header/carmodel/cr-v.png" alt=""/>
+                    <div class="smCars-txt">CR-V</div></a></li>
+                <li class="subMenu-item col-6 col-sm-4 col-lg"><a href="/xxx.html"> <img class="smCars-img" src="/assets/images/header/carmodel/fit.png" alt=""/>
+                    <div class="smCars-txt">FIT</div></a></li>
+                <li class="subMenu-item col-6 col-sm-4 col-lg"><a href="/xxx.html"> <img class="smCars-img" src="/assets/images/header/carmodel/odyssey.png" alt=""/>
+                    <div class="smCars-txt">ODYSSEY</div></a></li>
+                <li class="subMenu-item col-6 col-sm-4 col-lg"><a href="/xxx.html"> <img class="smCars-img" src="/assets/images/header/carmodel/city.png" alt=""/>
+                    <div class="smCars-txt">CITY</div></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="subMenu-group subMenu-buy"><a class="subMenu-tab" href="javascript:;">購車優惠</a>
+            <div class="subMenu-content container">
+              <ul class="subMenu-list row">
+                <li class="subMenu-item"><a href="/xxx.html">促銷活動</a></li>
+                <li class="subMenu-item"><a href="/xxx.html">購車試算</a></li>
+                <li class="subMenu-item"><a href="/xxx.html">預約試乘</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="subMenu-group subMenu-news"><a class="subMenu-tab" href="/news.html">最新消息      </a></div>
+          <div class="subMenu-group subMenu-safety"><a class="subMenu-tab" href="javascript:;">安全守護</a>
+            <div class="subMenu-content container">
+              <ul class="subMenu-list row">
+                <li class="subMenu-item"><a href="/xxx.html">safety for everyone</a></li>
+                <li class="subMenu-item"><a href="/xxx.html">安全科技</a></li>
+                <li class="subMenu-item"><a href="/xxx.html">安全知識</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="subMenu-group subMenu-about"><a class="subMenu-tab" href="javascript:;">關於Honda</a>
+            <div class="subMenu-content container">
+              <ul class="subMenu-list row">
+                <li class="subMenu-item"><a href="/xxx.html">公司簡介</a></li>
+                <li class="subMenu-item"><a href="/xxx.html">企業社會責任</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="subMenu-group subMenu-contact"><a class="subMenu-tab" href="javascript:;">聯絡Honda</a>
+            <div class="subMenu-content container">
+              <ul class="subMenu-list row">
+                <li class="subMenu-item"><a href="/xxx.html">據點查詢</a></li>
+                <li class="subMenu-item"><a href="/xxx.html">常見問題</a></li>
+                <li class="subMenu-item"><a href="/xxx.html">聯絡我們</a></li>
+                <li class="subMenu-item"><a href="/xxx.html">人才招募</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="subMenu-group subMenu-owner"><a class="subMenu-tab" href="/owner.html">車主專區 </a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Header 結束-->
+    <!-- floatBtn 開始-->
+    <div class="floatBtn">
+      <ul class="floatBtn-list">
+        <li class="floatBtn-item"><a href="#">
+            <div class="fas fa-car"></div>
+            <div class="floatBtn-txt">預約試乘</div></a></li>
+        <li class="floatBtn-item"><a href="#"><img src="/assets/images/floatBtn-calc.png" alt=""/>
+            <div class="floatBtn-txt">購車試算</div></a></li>
+        <li class="floatBtn-item"><a href="#">
+            <div class="fas fa-map-marker-alt"></div>
+            <div class="floatBtn-txt">展示中心</div></a></li>
+        <li class="floatBtn-item"><a href="#"><img src="/assets/images/floatBtn-loud.png" alt=""/>
+            <div class="floatBtn-txt">促銷活動</div></a></li>
+      </ul>
+      <div class="floatBtn-switch">
+        <div class="fas fa-caret-right"></div>
+      </div>
+    </div>
+    <!-- floatBtn 結束-->
+    <!-- 內容區塊 開始-->
+    <main class="wrapper cars" id="crv">
+      <!-- banner 開始-->
+      <div class="kv kv-banner"><img class="hidden-phone" src="/assets/images/cars/crv/kvBanner.jpg" alt=""/><img class="visible-phone" src="/assets/images/cars/crv/kvBanner-m.jpg" alt=""/></div>
+      <!-- banner 結束-->
+      <!-- cars menu 開始-->
+      <nav class="carsMenu">
+        <div class="container">
+          <div class="row">
+            <div class="col carsMenu-logo"><img src="/assets/images/cars/crv/logo.png" alt=""/></div>
+            <div class="carsMenu-content col">
+              <div class="carsMenu-select">
+                <div class="carsMenu-selectText">360度賞車</div><i class="fas fa-caret-down"></i>
+              </div>
+              <ul class="carsMenu-list">
+                <li class="carsMenu-item" data-section="s-car360">360度賞車</li>
+                <li class="carsMenu-item" data-section="s-exterior">外觀設計</li>
+                <li class="carsMenu-item" data-section="s-interior">內裝配備</li>
+                <li class="carsMenu-item" data-section="s-safety">安全科技</li>
+                <li class="carsMenu-item" data-section="s-power">動力</li>
+                <li class="carsMenu-item" data-section="s-spec">規格配備</li>
+                <li class="carsMenu-item" data-section="s-tv">影片</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- cars menu 結束-->
+      <!-- 360 開始-->
+      <section class="section s-car360" id="s-car360">
+        <div class="container">
+          <h2 class="sectionTitle">
+            <p class="sectionTitle-zhText">360度賞車</p>
+            <p class="sectionTitle-enText">Virtual of 360-degree viewing car</p>
+          </h2>
+          <div class="s-car360-tnc">*實際樣式以實車為主</div>
+          <div class="s-car360-tab tabBlock">
+            <ul class="s-car360-tabs tabs">
+              <li class="tab initTab"><a href="#ext360">外觀/顏色</a></li>
+              <li class="tab initTab"><a href="#int360">內裝</a></li>
+            </ul>
+            <div class="tabContainer">
+              <div class="tabContent ext360" id="ext360">
+                <div class="ext360-imgContent">
+                  <!-- vtis-->
+                  <div class="ext360-car" id="car1a" name="car1a"><img id="image1a" name="image1a" src="/assets/images/cars/crv/ext/vtis/g_24.jpg" width="742" height="520"/></div>
+                  <div class="ext360-car" id="car1b" name="car1b"><img id="image1b" name="image1b" src="/assets/images/cars/crv/ext/vtis/w_24.jpg" width="742" height="520"/></div>
+                  <div class="ext360-car" id="car1c" name="car1c"><img id="image1c" name="image1c" src="/assets/images/cars/crv/ext/vtis/b_24.jpg" width="742" height="520"/></div>
+                  <div class="ext360-car" id="car1d" name="car1d"><img id="image1d" name="image1d" src="/assets/images/cars/crv/ext/vtis/s_24.jpg" width="742" height="520"/></div>
+                  <div class="ext360-car" id="car1e" name="car1e"><img id="image1e" name="image1e" src="/assets/images/cars/crv/ext/vtis/t_24.jpg" width="742" height="520"/></div>
+                  <!-- s-->
+                  <div class="ext360-car" id="car2a" name="car2a"><img id="image2a" name="image2a" src="/assets/images/cars/crv/ext/s/g_24.jpg" width="742" height="520"/></div>
+                  <div class="ext360-car" id="car2b" name="car2b"><img id="image2b" name="image2b" src="/assets/images/cars/crv/ext/s/w_24.jpg" width="742" height="520"/></div>
+                  <div class="ext360-car" id="car2c" name="car2c"><img id="image2c" name="image2c" src="/assets/images/cars/crv/ext/s/b_24.jpg" width="742" height="520"/></div>
+                  <div class="ext360-car" id="car2d" name="car2d"><img id="image2d" name="image2d" src="/assets/images/cars/crv/ext/s/s_24.jpg" width="742" height="520"/></div>
+                  <div class="ext360-car" id="car2e" name="car2e"><img id="image2e" name="image2e" src="/assets/images/cars/crv/ext/s/t_24.jpg" width="742" height="520"/></div>
+                </div>
+                <div class="ext360-toolbar toolbar">           
+                  <div class="toolbar-typeContent">
+                    <div class="tool-floatBtn tool-push" id="tool-push"><span class="fas fa-car"></span></div>
+                    <div class="tool-floatBtn tool-item tool-btnType" id="tool-btnType1">VTi-S</div>
+                    <div class="tool-floatBtn tool-item tool-btnType" id="tool-btnType2">S</div>
+                  </div>
+                  <div class="toolbar-colorContent">
+                    <div class="tool-btnColor" id="tool-btnColorA" style="color:#ffffff;background:#275503"> <span class="fas fa-sort-down"></span>蒼勁綠</div>
+                    <div class="tool-btnColor" id="tool-btnColorB" style="color:#333333;background:#FFF; color:#333"> <span class="fas fa-sort-down"></span>雲朵白</div>
+                    <div class="tool-btnColor" id="tool-btnColorC" style="color:#ffffff;background:#000"> <span class="fas fa-sort-down"></span>水晶黑</div>
+                    <div class="tool-btnColor" id="tool-btnColorD" style="color:#ffffff;background:#999"> <span class="fas fa-sort-down"></span>皓月銀</div>
+                    <div class="tool-btnColor" id="tool-btnColorE" style="color:#ffffff;background:#555"> <span class="fas fa-sort-down"></span>深鈦灰</div>
+                  </div>
+                </div>
+              </div>
+              <div class="tabContent int360" id="int360">        
+                <div class="int360-imgContent" id="int360-imgContent"></div>
+                <div class="int360-toolbar toolbar">
+                  <div class="tool-floatBtn tool-push" id="tool-push"><span class="fas fa-arrows-alt"></span></div>
+                  <div class="tool-floatBtn tool-item" id="tool-btnUp"><span class="fas fa-chevron-up"></span></div>
+                  <div class="tool-floatBtn tool-item" id="tool-btnDown"><span class="fas fa-chevron-down"></span></div>
+                  <div class="tool-floatBtn tool-item" id="tool-btnLeft"><span class="fas fa-chevron-left"></span></div>
+                  <div class="tool-floatBtn tool-item" id="tool-btnRight"><span class="fas fa-chevron-right"></span></div>
+                  <div class="tool-floatBtn tool-item" id="tool-btnIn"><span class="fas fa-search-plus"></span></div>
+                  <div class="tool-floatBtn tool-item" id="tool-btnOut"><span class="fas fa-search-minus"></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 360 結束-->
+      <!-- exterior 開始-->
+      <section class="section" id="s-exterior">
+        <div class="container">
+          <h2 class="sectionTitle">
+            <p class="sectionTitle-zhText">外觀設計</p>
+            <p class="sectionTitle-enText">EXTERIOR</p>
+          </h2>
+          <div class="slide slide-card slide-card-text slide-nav-circle slide-hasShadow">
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/exterior-img01.jpg )"><img src="/assets/images/cars/crv/exterior-img01.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">LED 星鑽頭燈</h3>
+                          <p class="card-description">讓CR-V車頭展露前衛的科技質感、時尚化性格及極高辨識度。獨特的大燈組設計，讓CR-V車頭展露前衛的科技質感、時尚化性格及極高辨識度。</p>
+                        </div>
+                      </div>
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/exterior-img02.jpg )"><img src="/assets/images/cars/crv/exterior-img02.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">LED 後尾燈組</h3>
+                          <p class="card-description">讓CR-V車頭展露前衛的科技質感、時尚化性格及極高辨識度。</p>
+                        </div>
+                      </div>
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/exterior-img03.jpg )"><img src="/assets/images/cars/crv/exterior-img03.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">不繡鋼雙出排氣管</h3>
+                          <p class="card-description">讓CR-V車頭展露前衛的科技質感、時尚化性格及極高辨識度。獨特的大燈組設計，讓CR-V車頭展露前衛的科技質感、時尚化性格及極高辨識度。獨特的大燈組設計，讓CR-V車頭展露前衛的科技質感、時尚化性格及極高辨識度。</p>
+                        </div>
+                      </div>
+          </div>
+        </div>
+        <div class="section-footerImg"><img src="/assets/images/cars/crv/exterior-footer.jpg" alt=""/></div>
+      </section>
+      <!-- exterior 結束-->
+      <!-- interior 開始-->
+      <section class="section" id="s-interior">
+        <div class="container">
+          <h2 class="sectionTitle">
+            <p class="sectionTitle-zhText">內裝配備</p>
+            <p class="sectionTitle-enText">INTERIOR</p>
+          </h2>
+          <div class="slide slide-card slide-card-text slide-nav-circle slide-hasShadow">
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/interior-img01.jpg )"><img src="/assets/images/cars/crv/interior-img01.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">高質感金屬木紋飾板</h3>
+                          <p class="card-description">智慧操作介面，可播放影音、衛星導航、手機連結與車輛設定，並與儀表同步連結資訊，操作便利又安全。智慧操作介面，可播放影音、衛星導航、手機連結與車輛設定，並與儀表同步連結資訊，操作便利又安全。</p>
+                        </div>
+                      </div>
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/interior-img02.jpg )"><img src="/assets/images/cars/crv/interior-img02.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">高亮度金屬銀色飾板 (VTi-S)</h3>
+                          <p class="card-description">智慧操作介面，可播放影音、衛星導航、手機連結與車輛設定，並與儀表同步連結資訊，操作便利又安全。智慧操作介面，可播放影音、衛星導航、手機連結與車輛設定，並與儀表同步連結資訊，操作便利又安全。</p>
+                        </div>
+                      </div>
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/interior-img03.jpg )"><img src="/assets/images/cars/crv/interior-img03.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">車側鍍鉻飾條 (S)</h3>
+                          <p class="card-description">智慧操作介面，可播放影音、衛星導航、手機連結與車輛設定，並與儀表同步連結資訊，操作便利又安全。智慧操作介面，可播放影音、衛星導航、手機連結與車輛設定，並與儀表同步連結資訊，操作便利又安全。</p>
+                        </div>
+                      </div>
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/interior-img02.jpg )"><img src="/assets/images/cars/crv/interior-img02.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">車側鍍鉻飾條 (S)</h3>
+                          <p class="card-description">智慧操作介面，可播放影音、衛星導航、手機連結與車輛設定，並與儀表同步連結資訊，操作便利又安全。智慧操作介面，可播放影音、衛星導航、手機連結與車輛設定，並與儀表同步連結資訊，操作便利又安全。</p>
+                        </div>
+                      </div>
+          </div>
+        </div>
+        <div class="section-footerImg"><img src="/assets/images/cars/crv/interior-footer.jpg" alt=""/></div>
+      </section>
+      <!-- interior 結束-->
+      <!-- safety 開始-->
+      <section class="section s-safety" id="s-safety">
+        <div class="container">
+          <h2 class="sectionTitle">
+            <p class="sectionTitle-zhText">安全科技</p>
+            <p class="sectionTitle-enText">SAFETY &amp; Honda SENEING</p>
+          </h2>
+          <div class="slide slide-card slide-card-text slide-nav-circle slide-hasShadow">
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/safety-img01.jpg )"><img src="/assets/images/cars/crv/safety-img01.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">6 SRS 輔助氣囊</h3>
+                          <p class="card-description">以無數撞擊測試取得的數據為基礎，精心設計最佳化氣囊展開的形狀、配置、膨脹位置與防護範圍。同時配合3點式 ELR 安全帶，為您建立安心穩固的碰撞防護機製。</p>
+                        </div>
+                      </div>
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/safety-img02.jpg )"><img src="/assets/images/cars/crv/safety-img02.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">3模式倒車攝影機</h3>
+                          <p class="card-description">依駕駛者的需求，可選擇一般模式、廣角模式或俯視角度，讓你完全掌握後方狀況，倒車時更輕鬆安全。</p>
+                        </div>
+                      </div>
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/safety-img03.jpg )"><img src="/assets/images/cars/crv/safety-img03.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">LaneWatch™盲點監視系統</h3>
+                          <p class="card-description">利用右方車側後視鏡的鏡頭，在向右方轉向或變換車道時顯示右側盲點處畫面，降低日常行車上的潛在風險。</p>
+                        </div>
+                      </div>
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/safety-img02.jpg )"><img src="/assets/images/cars/crv/safety-img02.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">LaneWatch™盲點監視系統</h3>
+                          <p class="card-description">利用右方車側後視鏡的鏡頭，在向右方轉向或變換車道時顯示右側盲點處畫面，降低日常行車上的潛在風險。</p>
+                        </div>
+                      </div>
+          </div>
+          <ul class="video-slide slide slide-nav-circle" id="safetyYt">
+            <li>
+              <div class="section-video" data-playerId="sSafetyPlayer0" data-videoId="WKuaujIHBT4">
+                <div class="player" id="sSafetyPlayer0"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="section-footerImg"><img src="/assets/images/cars/crv/safety-footer.jpg" alt=""/></div>
+      </section>
+      <!-- safety 結束-->
+      <!-- power 開始-->
+      <section class="section" id="s-power">
+        <div class="container">
+          <h2 class="sectionTitle">
+            <p class="sectionTitle-zhText">動力</p>
+            <p class="sectionTitle-enText">PERFORMANCE</p>
+          </h2>
+          <div class="slide slide-card slide-card-text slide-nav-circle slide-hasShadow">
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/power-img01.jpg )"><img src="/assets/images/cars/crv/power-img01.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">G-Design Shift 控制 CVT 變速箱</h3>
+                          <p class="card-description">讓起步時更加平順，加速性能提升，改善運轉時的噪音，帶來靈敏、精緻的操控力。</p>
+                        </div>
+                      </div>
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/power-img02.jpg )"><img src="/assets/images/cars/crv/power-img02.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">1.5l VTEC Turbo 渦輪增壓引擎</h3>
+                          <p class="card-description">最新世代的渦輪增壓引擎，輕踩油門就能以低轉速低油耗換得強勁動力輸出。</p>
+                        </div>
+                      </div>
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/power-img03.jpg )"><img src="/assets/images/cars/crv/power-img03.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">雙齒輪EPS電動輔助動力方向機</h3>
+                          <p class="card-description">利用右方車側後視鏡的鏡頭，在向右方轉向或變換車道時顯示右側盲點處畫面，降低日常行車上的潛在風險。</p>
+                        </div>
+                      </div>
+                      <div class="card card-module-text">
+                        <div class="card-img" style="background-image: url( /assets/images/cars/crv/power-img02.jpg )"><img src="/assets/images/cars/crv/power-img02.jpg" alt=""/></div>
+                        <div class="card-content">
+                          <h3 class="card-title">雙齒輪EPS電動輔助動力方向機</h3>
+                          <p class="card-description">智慧採用VGR可變齒輪比搭配雙齒輪設計。在市區或彎道行駛時展現敏捷的靈活性，並在高速行駛時提升安定感。</p>
+                        </div>
+                      </div>
+          </div>
+        </div>
+        <div class="section-footerImg"><img src="/assets/images/cars/crv/power-footer.jpg" alt=""/></div>
+      </section>
+      <!-- power 結束    -->
+      <!-- spec 開始-->
+      <section class="s-spec" id="s-spec">
+        <div class="container">
+          <h2 class="sectionTitle">
+            <p class="sectionTitle-zhText">規格配備</p>
+            <p class="sectionTitle-enText">SPEC</p>
+          </h2>
+          <div class="download-link"><a href="#"><img src="/assets/images/cars/SPEC-download-link.png" alt=""/>
+              <p>型錄下載  <span>Catalogue Download</span></p></a></div>
+          <div class="row">
+            <div class="col col-12 col-lg-4">
+              <div class="s-specForm">
+                <div class="s-specForm-name">5人座 經典版<span class="fas fa-chevron-down"></span></div>
+                <div class="s-specFormSlide">
+                  <div class="s-specForm-money">899,000 TWD <span>(建議售價)</span></div>
+                  <div class="s-specForm-content">
+                    <p>排氣量: 1598cc</p>
+                    <p>最大馬力: 115ps</p>
+                    <p>平均油耗: 16.0km/L</p>
+                  </div>
+                  <div class="s-specForm-divider"></div>
+                  <ul class="s-specForm-list">
+                    <li>HR16DE 鋁合金節能引擎</li>
+                    <li>XTRONIC CVT 無段變速系統</li>
+                    <li>四輪碟煞及四合一煞車系統:ABS+BAS+EBD +BOS</li>
+                    <li>VDC車輛動態穩定控制系統</li>
+                    <li>TCS循跡防滑控制系統</li>
+                    <li>HSA斜坡起步輔助系統</li>
+                    <li>TPMS胎壓偵測系統</li>
+                    <li>雙前座SRS輔助氣囊</li>
+                    <li>雙前座側方SRS輔助氣囊</li>
+                    <li>車側氣簾式SRS輔助氣囊</li>
+                    <li>MID行車旅程電腦(附Eco節能駕駛輔助)</li>
+                    <li>絨布椅</li>
+                    <li>PM2.5 清淨冷暖三合一手動空調</li>
+                    <li>EPS車速感應式電子動力方向盤</li>
+                    <li>新世代V-Motion水箱護罩</li>
+                    <li>投射式魚眼造型頭燈(附光感應式自動啟閉功能)</li>
+                    <li>LED導光式日行燈</li>
+                    <li>LED漸層導光式尾燈</li>
+                    <li>前 / 後獨立式霧燈</li>
+                    <li>中央控制門鎖</li>
+                    <li>隱藏式倒車雷達</li>
+                    <li>後座6/4分離，可傾倒式後座椅</li>
+                    <li>16吋雙色切削鋁合金輪圈</li>
+                    <li>ISOFIX兒童安全座椅固定裝置</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col col-12 col-lg-4">
+              <div class="s-specForm">
+                <div class="s-specForm-name">5人座 豪華版<span class="fas fa-chevron-down"></span></div>
+                <div class="s-specFormSlide">
+                  <div class="s-specForm-money">899,000 TWD <span>(建議售價)</span></div>
+                  <div class="s-specForm-content">
+                    <p>排氣量: 1598cc</p>
+                    <p>最大馬力: 115ps</p>
+                    <p>平均油耗: 16.0km/L</p>
+                  </div>
+                  <div class="s-specForm-divider"></div>
+                  <ul class="s-specForm-list">
+                    <li>HR16DE 鋁合金節能引擎</li>
+                    <li>XTRONIC CVT 無段變速系統</li>
+                    <li>四輪碟煞及四合一煞車系統:ABS+BAS+EBD +BOS</li>
+                    <li>中央控制門鎖</li>
+                    <li>隱藏式倒車雷達</li>
+                    <li>後座6/4分離，可傾倒式後座椅</li>
+                    <li>16吋雙色切削鋁合金輪圈</li>
+                    <li>ISOFIX兒童安全座椅固定裝置</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col col-12 col-lg-4">
+              <div class="s-specForm">
+                <div class="s-specForm-name">5人座 頂級座<span class="fas fa-chevron-down"></span></div>
+                <div class="s-specFormSlide">
+                  <div class="s-specForm-money">899,000 TWD <span>(建議售價)</span></div>
+                  <div class="s-specForm-content">
+                    <p>排氣量: 1598cc</p>
+                    <p>最大馬力: 115ps</p>
+                    <p>平均油耗: 16.0km/L</p>
+                  </div>
+                  <div class="s-specForm-divider"></div>
+                  <ul class="s-specForm-list">
+                    <li>HSA斜坡起步輔助系統</li>
+                    <li>TPMS胎壓偵測系統</li>
+                    <li>雙前座SRS輔助氣囊</li>
+                    <li>雙前座側方SRS輔助氣囊</li>
+                    <li>車側氣簾式SRS輔助氣囊</li>
+                    <li>MID行車旅程電腦(附Eco節能駕駛輔助)</li>
+                    <li>絨布椅</li>
+                    <li>PM2.5 清淨冷暖三合一手動空調</li>
+                    <li>EPS車速感應式電子動力方向盤</li>
+                    <li>新世代V-Motion水箱護罩</li>
+                    <li>投射式魚眼造型頭燈(附光感應式自動啟閉功能)</li>
+                    <li>LED導光式日行燈</li>
+                    <li>LED漸層導光式尾燈</li>
+                    <li>前 / 後獨立式霧燈</li>
+                    <li>中央控制門鎖</li>
+                    <li>隱藏式倒車雷達</li>
+                    <li>後座6/4分離，可傾倒式後座椅</li>
+                    <li>16吋雙色切削鋁合金輪圈</li>
+                    <li>ISOFIX兒童安全座椅固定裝置</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- spec 結束-->
+      <!-- tv 開始-->
+      <section class="section s-tv" id="s-tv">
+        <div class="container">
+          <h2 class="sectionTitle">
+            <p class="sectionTitle-zhText">影片</p>
+            <p class="sectionTitle-enText">TV SHOW</p>
+          </h2>
+          <ul class="video-slide slide slide-nav-circle" id="tvYt">
+            <li>
+              <div class="section-video" data-playerId="sTvPlayer0" data-videoId="6wU1GtnUCmE">
+                <div class="player" id="sTvPlayer0"></div>
+              </div>
+            </li>
+            <li>
+              <div class="section-video" data-playerId="sTvPlayer1" data-videoId="WKuaujIHBT4">
+                <div class="player" id="sTvPlayer1"></div>
+              </div>
+            </li>
+          </ul>
+          <div id="player001"></div>
+        </div>
+      </section>
+      <!-- tv 結束-->
+      <!-- offer 開始-->
+      <section class="section" id="s-offer">
+        <div class="container">
+          <h2 class="sectionTitle">
+            <p class="sectionTitle-zhText">購車優惠</p>
+            <p class="sectionTitle-enText">EVENTS</p>
+          </h2>
+          <div class="slide slide-card slide-card-link slide-nav-circle slide-hasShadow">
+                      <div class="card card-module-link"><a href="#" title="30年傳承- 2019 Honda NSX系列展揭序幕30年傳承- 2019 Honda NSX系列展揭序幕">
+                          <div class="card-img" style="background-image: url( /assets/images/homepage/news-Image.jpg )"><img src="/assets/images/homepage/news-Image.jpg" alt=""/></div>
+                          <div class="card-content">
+                            <div class="card-date">2018.12.14</div>
+                            <h3 class="card-title">30年傳承- 2019 Honda NSX系列展揭序幕30年傳承- 2019 Honda NSX系列展揭序幕</h3>
+                            <div class="card-link">more <i class="fas fa-chevron-right"></i></div>
+                          </div></a></div>
+                      <div class="card card-module-link"><a href="#" title="Honda 2019 再創里程碑  迎接 40 萬車主 感謝回饋支持">
+                          <div class="card-img" style="background-image: url( /assets/images/homepage/news-Image.jpg )"><img src="/assets/images/homepage/news-Image.jpg" alt=""/></div>
+                          <div class="card-content">
+                            <div class="card-date">2018.12.14</div>
+                            <h3 class="card-title">Honda 2019 再創里程碑  迎接 40 萬車主 感謝回饋支持</h3>
+                            <div class="card-link">more <i class="fas fa-chevron-right"></i></div>
+                          </div></a></div>
+                      <div class="card card-module-link"><a href="#" title="Honda舊換新  政府補助5萬元 不用等立即領">
+                          <div class="card-img" style="background-image: url( /assets/images/homepage/news-Image.jpg )"><img src="/assets/images/homepage/news-Image.jpg" alt=""/></div>
+                          <div class="card-content">
+                            <div class="card-date">2018.12.14</div>
+                            <h3 class="card-title">Honda舊換新  政府補助5萬元 不用等立即領</h3>
+                            <div class="card-link">more <i class="fas fa-chevron-right"></i></div>
+                          </div></a></div>
+          </div>
+        </div>
+      </section>
+      <!-- offer 結束-->
+    </main>
+    <!-- 內容區塊 結束-->
+    <!-- Footer 開始-->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="shareLink">
+          <div class="container">
+            <ul class="shareLink-list">
+              <li class="shareLink-item"><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+              <li class="shareLink-item"><a href="#"><span class="fab fa-line"></span></a></li>
+              <li class="shareLink-item"><a href="#"><span class="fab fa-instagram"></span></a></li>
+              <li class="shareLink-item"><a href="#"><span class="fab fa-youtube-square"></span></a></li>
+              <li class="shareLink-item machine"><a href="#"><img src="/assets/images/footer/machine.png" alt=""/></a></li>
+              <li class="shareLink-item motor"><a href="#"><img src="/assets/images/footer/motor.png" alt=""/></a></li>
+              <li class="shareLink-item survey"><a href="#"><img src="/assets/images/footer/survey.png" alt=""/></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="divider container">
+          <div class="row"><span></span></div>
+        </div>
+        <div class="footer-menu">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <ul class="menu-list">
+                  <li class="menu-item menu-item-title">車款介紹</li>
+                  <li class="menu-item"><a href="#">CR-V</a></li>
+                  <li class="menu-item"><a href="#">HR-V</a></li>
+                  <li class="menu-item"><a href="#">FIT</a></li>
+                  <li class="menu-item"><a href="#">CITY</a></li>
+                  <li class="menu-item"><a href="#">ODYSSEY</a></li>
+                  <li class="menu-item"><a href="#">NSX</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="menu-list">
+                  <li class="menu-item menu-item-title">購車優惠</li>
+                  <li class="menu-item"><a href="#">促銷活動</a></li>
+                  <li class="menu-item"><a href="#">購車試算</a></li>
+                  <li class="menu-item"><a href="#">預約試乘</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="menu-list">
+                  <li class="menu-item menu-item-title">最新消息</li>
+                  <li class="menu-item"><a href="#">新聞中心</a></li>
+                  <li class="menu-item"><a href="#">品牌活動</a></li>
+                  <li class="menu-item"><a href="#">服務活動</a></li>
+                  <li class="menu-item"><a href="#">得獎名單</a></li>
+                  <li class="menu-item"><a href="#">賀卡專區</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="menu-list">
+                  <li class="menu-item menu-item-title">安全守護</li>
+                  <li class="menu-item"><a href="#">Safety for Everyone</a></li>
+                  <li class="menu-item"><a href="#">安全科技</a></li>
+                  <li class="menu-item"><a href="#">安全知識</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="menu-list">
+                  <li class="menu-item menu-item-title">關於Honda</li>
+                  <li class="menu-item"><a href="#">公司簡介</a></li>
+                  <li class="menu-item"><a href="#">企業社會責任</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="menu-list">
+                  <li class="menu-item menu-item-title">聯絡Honda</li>
+                  <li class="menu-item"><a href="#">展示中心</a></li>
+                  <li class="menu-item"><a href="#">維修據點</a></li>
+                  <li class="menu-item"><a href="#">常見問題</a></li>
+                  <li class="menu-item"><a href="#">聯絡我們</a></li>
+                  <li class="menu-item"><a href="#">人才招募</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="menu-list">
+                  <li class="menu-item menu-item-title">車主專區</li>
+                  <li class="menu-item"><a href="#">預約保養</a></li>
+                  <li class="menu-item"><a href="#">車主檔案</a></li>
+                  <li class="menu-item"><a href="#">資訊中心</a></li>
+                  <li class="menu-item"><a href="#">用車知識</a></li>
+                  <li class="menu-item"><a href="#">原廠保證</a></li>
+                  <li class="menu-item"><a href="#">紅利點數</a></li>
+                  <li class="menu-item"><a href="#">下載專區</a></li>
+                  <li class="menu-item"><a href="#">車主雜誌</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="menu-list">
+                  <li class="menu-item menu-item-title">其他</li>
+                  <li class="menu-item"><a href="#">隱私權聲明</a></li>
+                  <li class="menu-item"><a href="#">Global Honda</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col">Copyright © 2019 Honda Taiwan Co., Ltd. All right reserved.<a href="#">隱私權聲明</a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer 結束-->
+    <!-- 共用JS區塊 開始-->
+    <script src="/assets/scripts/lib/jquery.min.js"></script>
+    <script src="/assets/scripts/lib/slick.min.js"></script>
+    <script src="/assets/scripts/lib/iscroll.js"></script>
+    <script src="/assets/scripts/main.js"></script>
+    <!-- 共用JS區塊 結束-->
+    <!-- 各頁JS區塊 開始-->
+    <script src="/assets/scripts/lib/slick.min.js"></script>
+    <script src="/assets/scripts/lib/jquery.reel-min.js"></script>
+    <script src="/assets/scripts/lib/pano2vr_player.js"></script>
+    <script src="/assets/scripts/lib/pano2vrgyro.js"></script>
+    <script src="/assets/scripts/cars.js"></script>
+    <!-- 各頁JS區塊 結束-->
+  </body>
+</html>
